@@ -1,0 +1,80 @@
+header {
+  background-image: url("../images/close-up-photography-of-leaves-with-droplets-807598.jpg");
+  height: 200px;
+  background-size: cover;
+  font-family: "Barlow", "Signika", sans-sefif;
+  padding: 30px;
+  color: #F9F9F9;
+  padding-right: 10%;
+  margin: 0;
+  display: flex;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  background-image: url("../images/IMG_3652.JPG");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.title {
+  width: 100%;
+  text-align: right;
+}
+.title--main {
+  padding-top: 40px;
+}
+
+.content {
+  display: flex;
+  font-family: "Barlow", "Signika", sans-sefif;
+  text-color: black;
+}
+
+p {
+  text-indent: 5%;
+}
+
+.left-box {
+  background-color: #eaeaea;
+  height: 75%;
+  width: 40%;
+  align-items: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.left-box .line1 {
+  height: 3px;
+  width: 180px;
+  background-color: #000000;
+}
+.left-box .line2 {
+  height: 3px;
+  width: 75px;
+  background-color: #000000;
+}
+.left-box .line3 {
+  height: 3px;
+  width: 100px;
+  background-color: #000000;
+}
+
+.right-box {
+  background-color: #F9F9F9;
+  height: 75%;
+  width: 60%;
+  padding-left: 5%;
+}
+.right-box .line4 {
+  height: 3px;
+  width: 50px;
+  background-color: #000000;
+}
+.right-box .line5 {
+  height: 3px;
+  width: 150px;
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */

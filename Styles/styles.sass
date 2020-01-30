@@ -1,0 +1,78 @@
+@import "_colors"
+$font-stack: "Barlow", "Signika", sans-sefif
+@mixin line ($dash: 50px)
+    height: 3px
+    width: $dash
+    background-color: $black 
+
+header
+    background-image: url("../images/close-up-photography-of-leaves-with-droplets-807598.jpg")
+    height: 200px
+    background-size: cover
+    font-family: $font-stack
+    padding: 30px
+    color: $white
+    padding-right: 10%
+    margin: 0
+    display: flex
+
+    
+.img 
+    height: 200px
+    width: 200px
+    background-image: url("../images/IMG_3652.JPG")
+    background-size: cover 
+    border-radius: 50%
+
+        
+.title
+    width: 100%
+    text-align: right
+    &--main
+        padding-top: 40px
+
+.content
+    display: flex
+    font-family: $font-stack
+    text-color: black 
+
+p 
+    text-indent: 5%
+    
+.left-box
+    background-color: $gray
+    height: 75%
+    width: 40%
+    align-items: left
+    padding-left: 5%
+    padding-right: 5% 
+
+    .line1 
+        @include line(180px)
+
+    .line2 
+        @include line(75px)
+
+    .line3 
+        @include line(100px)
+
+.right-box
+    background-color: $white
+    height: 75%
+    width: 60%
+    padding-left: 5%
+    .line4 
+        @include line(50px)
+
+    .line5
+        @include line(150px)
+
+
+
+    
+
+    
+
+
+
+
